@@ -7,7 +7,7 @@
 <p align="center">
   <a href="mailto:rharinarayanan69@gmail.com"><img src="https://img.shields.io/badge/email-111111?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://linkedin.com/in/hari456"><img src="https://img.shields.io/badge/linkedin-111111?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://hri.fr"><img src="https://img.shields.io/badge/site-111111?style=for-the-badge&logo=safari&logoColor=white" alt="Site"></a>
+  <a href="https://hariforreal.in"><img src="https://img.shields.io/badge/site-111111?style=for-the-badge&logo=safari&logoColor=white" alt="Site"></a>
 </p>
 
 <p align="center">
