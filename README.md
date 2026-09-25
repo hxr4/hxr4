@@ -1,97 +1,83 @@
 <h1 align="center">Harinarayanan R</h1>
 
 <p align="center">
-  CS student in Kochi. I write software that runs close to the metal, and occasionally on hardware I do not fully trust.
+  <strong>AI/ML student · systems-minded builder · photographer</strong><br>
+  Kochi, Kerala · Jain University
 </p>
 
 <p align="center">
-  <a href="mailto:rharinarayanan69@gmail.com"><img src="https://img.shields.io/badge/email-111111?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://linkedin.com/in/hari456"><img src="https://img.shields.io/badge/linkedin-111111?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://hariforreal.in"><img src="https://img.shields.io/badge/site-111111?style=for-the-badge&logo=safari&logoColor=white" alt="Site"></a>
+  <a href="https://hariforreal.in">Website</a> ·
+  <a href="mailto:rharinarayanan69@gmail.com">Email</a> ·
+  <a href="https://www.linkedin.com/in/hari456">LinkedIn</a> ·
+  <a href="https://x.com/zephyrr248">X</a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Swift-111111?style=flat-square&logo=swift&logoColor=F05138">
-  <img src="https://img.shields.io/badge/Python-111111?style=flat-square&logo=python&logoColor=3776AB">
-  <img src="https://img.shields.io/badge/Go-111111?style=flat-square&logo=go&logoColor=00ADD8">
-  <img src="https://img.shields.io/badge/TypeScript-111111?style=flat-square&logo=typescript&logoColor=3178C6">
-  <img src="https://img.shields.io/badge/C-111111?style=flat-square&logo=c&logoColor=A8B9CC">
-  <img src="https://img.shields.io/badge/PyTorch-111111?style=flat-square&logo=pytorch&logoColor=EE4C2C">
-  <img src="https://img.shields.io/badge/Docker-111111?style=flat-square&logo=docker&logoColor=2496ED">
-  <img src="https://img.shields.io/badge/Linux-111111?style=flat-square&logo=linux&logoColor=FCC624">
-</p>
+I build tools that make difficult systems visible: a browser that treats local development as a first-class workspace, a computer-vision safety system for mine vehicles, a lunar-image registration pipeline, and a welfare navigator that turns scattered government rules into a usable Malayalam and English journey.
 
----
+I like the layer underneath the framework: file I/O, concurrency, crash recovery, model behaviour, embedded devices, and the small decisions that make software trustworthy. I also shoot portraits, landscapes, stages, and quiet things.
 
-### whoami
+## Selected work
 
-- Building a macOS browser in Swift, because every other browser wants 4 GB of RAM to render a text box.
-- Doing computer vision on Chandrayaan-2 lunar imagery. The Moon does not move, which makes it the only cooperative dataset I have ever worked with.
-- Interested in the layer underneath the framework: file I/O, concurrency, crash recovery, the parts that are boring right up until they are not.
-- **Open to SDE / systems / research internships.** Email is at the top and I do read it.
+### [Forge](https://github.com/hxr4/forge_brow)
 
----
+**A macOS browser built around local development.** Swift, AppKit, WebKit, CEF, Chromium, Objective-C++
 
-### Things I actually built
+Forge treats the browser as part of the developer’s desk instead of a window that gets opened and closed. It includes tab suspension, a scriptable command bar, host-level request visibility, popup blocking, and native macOS foundations.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### [VISOR](https://github.com/hxr4/visor)
 
-#### [forge_brow](https://github.com/hxr4/forge_brow)
-<img src="assets/forge_brow.png" width="100%">
+**Visibility-Indexed Safe Operating Range for mine vehicles.** Python, OpenCV, Raspberry Pi
 
-A macOS browser built on WebKit, in Swift. Tab suspension, a scriptable command bar, and a stubborn refusal to ship a crypto wallet.
+In fog, a vehicle cannot safely choose a speed without knowing how far its sensors can see. VISOR combines simulated radar, camera, and thermal inputs to estimate a safe operating range. Built for SIH 2026, PS SIH26007.
 
-`Swift` · `WebKit` · `MIT`
+### [LunarReg](https://github.com/hxr4/lunareg)
 
-</td>
-<td width="50%" valign="top">
+**Registration and quality checking for Chandrayaan-2 imagery.** Python, PyTorch, GDAL
 
-#### [visor](https://github.com/hxr4/visor)
-<img src="assets/visor.png" width="100%">
+LunarReg aligns images captured by different cameras, at different resolutions and sun angles, then exposes the result through a mission console so the registration can be inspected instead of blindly trusted.
 
-Visibility-Indexed Safe Operating Range — a retrofit safety system for mine vehicles operating in fog. Built for SIH 2026, PS SIH26007.
+### [Welfare Navigator](https://github.com/hxr4/welfarenavigator)
 
-`Python` · `OpenCV` · `Raspberry Pi`
+**A source-backed welfare screener for Kerala.** Next.js, React, TypeScript, Zod
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+Welfare Navigator helps fishing and plantation families find schemes they may be eligible for. It uses a deterministic rules engine, adaptive questioning, Malayalam and English support, official source quotations, document checklists, and district-office routing. No AI model decides eligibility.
 
-#### [lunareg](https://github.com/hxr4/lunareg)
-<img src="assets/lunareg.png" width="100%">
+### [OPPU](https://github.com/hxr4/oppu)
 
-Aligns two lunar images taken by different cameras, at different resolutions, under different sun angles — and then tells you whether to trust the result.
+**Offline-first student concession verification.** TypeScript, WebCrypto ECDSA P-256, IndexedDB, Vite
 
-`Python` · `PyTorch` · `GDAL`
+OPPU lets a conductor verify a student concession card on a moving bus, even without a network connection. The design treats QR screenshots, sibling lookalikes, and offline verification as real security problems.
 
-</td>
-<td width="50%" valign="top">
+### [Aashan](https://github.com/hxr4/aashan_fintech)
 
-#### [AI-Phishing-Detector](https://github.com/hxr4/AI-Phishing-Detector)
-<img src="assets/phishing.png" width="100%">
+**A privacy-conscious financial ledger.** Python, FastAPI, PostgreSQL, SQLite
 
-Classifies phishing attempts from URL and content features. Trained on the kind of email that opens with "Dear Valued Customer".
+Aashan reconciles observations from different financial sources into one canonical ledger, so the same lunch seen by two accounts does not become two expenses. The architecture keeps source observations separate from user-owned aggregates.
 
-`Python` · `scikit-learn`
+### [Mine Worker Safety Node](https://github.com/hxr4/mine-worker-node)
 
-</td>
-</tr>
-</table>
+**An embedded safety sensor prototype.** ESP32, Arduino, Web Serial, MQTT
 
----
+A small sensor node for detecting events such as impact, shock, flame, temperature changes, and pulse-count changes when nobody is watching directly.
 
-### The numbers, unedited
+## The thread through all of it
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=hxr4&show_icons=true&hide_border=true&title_color=111111&icon_color=111111&text_color=333333&bg_color=ffffff">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hxr4&layout=compact&hide_border=true&title_color=111111&text_color=333333&bg_color=ffffff">
-</p>
+I keep returning to the same question:
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hxr4&hide_border=true&background=ffffff&ring=111111&fire=111111&currStreakLabel=111111">
-</p>
+> What should the system do when the obvious answer is incomplete, delayed, or wrong?
 
-<p align="center"><sub>Yes, I can see the graph too. Week 1 of fixing it was today.</sub></p>
+That leads to offline verification in OPPU, uncertainty-aware screening in Welfare Navigator, inspectable image registration in LunarReg, and recovery-oriented tooling in Forge.
+
+## Current toolkit
+
+`Python` `C` `C++` `Swift` `TypeScript` `React` `Next.js` `PyTorch` `OpenCV` `FastAPI` `PostgreSQL` `SQLite` `WebCrypto` `ESP32` `Raspberry Pi` `Linux` `ADB`
+
+## Outside the code
+
+I photograph stages, portraits, landscapes, festivals, and quiet details. I listen to music obsessively, prefer the terminal to a dashboard when the terminal is enough, and keep a long-running Minecraft survival world under the name `zephyr`.
+
+## Contact
+
+If you want to talk about systems software, applied ML, computer vision, embedded work, or a project that has to survive the real world:
+
+**[Email me](mailto:rharinarayanan69@gmail.com)** · **[hariforreal.in](https://hariforreal.in)**
