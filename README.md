@@ -1,83 +1,100 @@
-<h1 align="center">Harinarayanan R</h1>
+<div align="center">
 
-<p align="center">
-  <strong>AI/ML student · systems-minded builder · photographer</strong><br>
-  Kochi, Kerala · Jain University
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=24&duration=3000&pause=1000&color=96965A&center=true&vCenter=true&width=600&lines=Harinarayanan+R;Building+software%2C+hardware%2C+and+the+occasional+browser.;hxr4+%E2%80%94+no+face%2C+just+the+work." alt="Typing SVG" />
 
-<p align="center">
-  <a href="https://hariforreal.in">Website</a> ·
-  <a href="mailto:rharinarayanan69@gmail.com">Email</a> ·
-  <a href="https://www.linkedin.com/in/hari456">LinkedIn</a> ·
-  <a href="https://x.com/zephyrr248">X</a>
-</p>
+<br>
 
-I build tools that make difficult systems visible: a browser that treats local development as a first-class workspace, a computer-vision safety system for mine vehicles, a lunar-image registration pipeline, and a welfare navigator that turns scattered government rules into a usable Malayalam and English journey.
+[![Portfolio](https://img.shields.io/badge/portfolio-hariforreal.in-0C0E0D?style=for-the-badge&logo=vercel&logoColor=white)](https://www.hariforreal.in)
+[![X](https://img.shields.io/badge/X-@zephyrr248-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/zephyrr248)
 
-I like the layer underneath the framework: file I/O, concurrency, crash recovery, model behaviour, embedded devices, and the small decisions that make software trustworthy. I also shoot portraits, landscapes, stages, and quiet things.
+</div>
 
-## Selected work
+<br>
 
-### [Forge](https://github.com/hxr4/forge_brow)
+### About
 
-**A macOS browser built around local development.** Swift, AppKit, WebKit, CEF, Chromium, Objective-C++
+BTech CSE student at Jain University, Kochi — working across software, embedded hardware, and the occasional late-night hackathon. No profile photos here by design: this profile is the work, not the face behind it. More on that at [hariforreal.in](https://www.hariforreal.in).
 
-Forge treats the browser as part of the developer’s desk instead of a window that gets opened and closed. It includes tab suspension, a scriptable command bar, host-level request visibility, popup blocking, and native macOS foundations.
+What I build spans a resource-light macOS browser, mine-safety hardware/software systems for Smart India Hackathon, and quick-turnaround hackathon prototypes — usually solo, sometimes in a two-person team the night before a deadline.
 
-### [VISOR](https://github.com/hxr4/visor)
+<br>
 
-**Visibility-Indexed Safe Operating Range for mine vehicles.** Python, OpenCV, Raspberry Pi
+### Currently building
 
-In fog, a vehicle cannot safely choose a speed without knowing how far its sensors can see. VISOR combines simulated radar, camera, and thermal inputs to estimate a safe operating range. Built for SIH 2026, PS SIH26007.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### [LunarReg](https://github.com/hxr4/lunareg)
+**[forge_brow](https://github.com/hxr4/forge_brow)**
+A development-first macOS browser built on Chromium via CEF — not WebKit, not an Electron wrapper. Native AppKit shell, `adblock-rust` content blocking, a localhost dev-server dashboard, a 13-tool developer belt, and a ⌘K command palette. MIT-licensed, alpha, used daily.
+`Objective-C++` `Swift` `Rust` `C++`
 
-**Registration and quality checking for Chandrayaan-2 imagery.** Python, PyTorch, GDAL
+</td>
+<td width="50%" valign="top">
 
-LunarReg aligns images captured by different cameras, at different resolutions and sun angles, then exposes the result through a mission console so the registration can be inspected instead of blindly trusted.
+**[visor](https://github.com/hxr4/visor)**
+VISOR — Visibility-Indexed Safe Operating Range. A Smart India Hackathon 2026 entry (PS SIH26007): a low-cost retrofit safety system that computes maximum safe speed for mine vehicles from real-time visibility range, with independent microcontroller enforcement.
+`Python`
 
-### [Welfare Navigator](https://github.com/hxr4/welfarenavigator)
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**A source-backed welfare screener for Kerala.** Next.js, React, TypeScript, Zod
+**[welfarenavigator](https://github.com/hxr4/welfarenavigator)**
+A Malayalam/English welfare-screening assistant built for a hackathon finale, now open-sourced. Rules decide eligibility; AI only improves accessibility — backed by a source-cited Kerala welfare ruleset built from scratch.
+`Next.js` `React` `TypeScript` `Zod`
 
-Welfare Navigator helps fishing and plantation families find schemes they may be eligible for. It uses a deterministic rules engine, adaptive questioning, Malayalam and English support, official source quotations, document checklists, and district-office routing. No AI model decides eligibility.
+</td>
+<td width="50%" valign="top">
 
-### [OPPU](https://github.com/hxr4/oppu)
+**[oppu](https://github.com/hxr4/oppu)**
+An offline-verifiable digital student concession pass, built in a weekend for a public-transport hackathon's selection round. No server required.
+`TypeScript` `Vite`
 
-**Offline-first student concession verification.** TypeScript, WebCrypto ECDSA P-256, IndexedDB, Vite
+</td>
+</tr>
+</table>
 
-OPPU lets a conductor verify a student concession card on a moving bus, even without a network connection. The design treats QR screenshots, sibling lookalikes, and offline verification as real security problems.
+<br>
 
-### [Aashan](https://github.com/hxr4/aashan_fintech)
+### Stack
 
-**A privacy-conscious financial ledger.** Python, FastAPI, PostgreSQL, SQLite
+<div align="center">
 
-Aashan reconciles observations from different financial sources into one canonical ledger, so the same lunch seen by two accounts does not become two expenses. The architecture keeps source observations separate from user-owned aggregates.
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Swift](https://img.shields.io/badge/-Swift-F05138?style=flat-square&logo=swift&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
 
-### [Mine Worker Safety Node](https://github.com/hxr4/mine-worker-node)
+![Chromium/CEF](https://img.shields.io/badge/-Chromium%2FCEF-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
+![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![ESP32](https://img.shields.io/badge/-ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
+![Astro](https://img.shields.io/badge/-Astro-FF5D01?style=flat-square&logo=astro&logoColor=white)
 
-**An embedded safety sensor prototype.** ESP32, Arduino, Web Serial, MQTT
+</div>
 
-A small sensor node for detecting events such as impact, shock, flame, temperature changes, and pulse-count changes when nobody is watching directly.
+<br>
 
-## The thread through all of it
+### GitHub stats
 
-I keep returning to the same question:
+<div align="center">
 
-> What should the system do when the obvious answer is incomplete, delayed, or wrong?
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=hxr4&show_icons=true&hide_title=true&hide_border=true&bg_color=0C0E0D&title_color=96965A&icon_color=96965A&text_color=c9c9c9" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hxr4&layout=compact&hide_border=true&bg_color=0C0E0D&title_color=96965A&text_color=c9c9c9" />
 
-That leads to offline verification in OPPU, uncertainty-aware screening in Welfare Navigator, inspectable image registration in LunarReg, and recovery-oriented tooling in Forge.
+</div>
 
-## Current toolkit
+<br>
 
-`Python` `C` `C++` `Swift` `TypeScript` `React` `Next.js` `PyTorch` `OpenCV` `FastAPI` `PostgreSQL` `SQLite` `WebCrypto` `ESP32` `Raspberry Pi` `Linux` `ADB`
+<div align="center">
 
-## Outside the code
+<sub>Building in public, mostly at 2am. Reach me through <a href="https://www.hariforreal.in">hariforreal.in</a>.</sub>
 
-I photograph stages, portraits, landscapes, festivals, and quiet details. I listen to music obsessively, prefer the terminal to a dashboard when the terminal is enough, and keep a long-running Minecraft survival world under the name `zephyr`.
-
-## Contact
-
-If you want to talk about systems software, applied ML, computer vision, embedded work, or a project that has to survive the real world:
-
-**[Email me](mailto:rharinarayanan69@gmail.com)** · **[hariforreal.in](https://hariforreal.in)**
+</div>
